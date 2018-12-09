@@ -3,15 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/ML/Regression/src/regression/GradientDescentOptimizer.java</file>
-            <file>file:/E:/ML/Regression/src/regression/sineExample/Data.java</file>
-            <file>file:/E:/ML/Regression/src/regression/digitExample/Data.java</file>
-            <file>file:/E:/ML/Regression/src/regression/digitExample/Functions.java</file>
-            <file>file:/E:/ML/Regression/src/regression/sineExample/Main.java</file>
-            <file>file:/E:/ML/Regression/src/regression/SimpleR2Example/Main.java</file>
-            <file>file:/E:/ML/Regression/src/regression/sineExample/Functions.java</file>
-            <file>file:/E:/ML/Regression/src/regression/SimpleR2Example/Functions.java</file>
-            <file>file:/E:/ML/Regression/src/regression/Regression.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/regression/digitExample/Main.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/regression/digitExample/Data.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/regression/digitExample/Functions.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/com/jmatio/types/MLArray.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/regression/GradientDescentOptimizer.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/com/jmatio/types/MLChar.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/regression/Regression.java</file>
+            <file>file:/E:/ML/MLRegression/Regression/src/com/jmatio/io/MatFileHeader.java</file>
         </group>
     </open-files>
 </project-private>

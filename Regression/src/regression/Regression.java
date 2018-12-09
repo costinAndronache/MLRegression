@@ -17,8 +17,9 @@ public class Regression {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        regression.SimpleR2Example.Main.run();
+        //regression.SimpleR2Example.Main.run();
         //regression.sineExample.Main.run();
+        regression.digitExample.Main.run();
     }
     
 }
