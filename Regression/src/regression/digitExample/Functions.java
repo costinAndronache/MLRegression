@@ -22,6 +22,8 @@ public class Functions {
         for(int i=0; i<features.length; i++){
             dotProd += features[i] * weights[i];
         }
+        //take bias into account
+        dotProd += 1;
         // apply the sigmoid on dotProd, a.k.a g(dotProd)
         double sigmValue = 1.0 / (1.0 + Math.exp(-dotProd));
         return sigmValue;
@@ -30,9 +32,6 @@ public class Functions {
     
     public BiFunction<Double[], Integer, Double> partialDerivativePerArgument() {
         return (weights, argIndex) -> {
-            if(argIndex >= 400){
-                System.out.print("uh oh");
-            }
             double result = 0.0; 
             for(Data.TrainingData td: this.trainingData) {
                 result += (predictionFor(td.grayscaleIntensities, weights) - td.label) 

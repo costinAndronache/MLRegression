@@ -1,0 +1,9 @@
+Learning rate = 1.0; Error threshold = 0.005; Max iterations = 1000; Smoothness = 1.0
+Error: 0.9002
+Accuracy: 0.0998
+Correct guesses:
+{9=499}
+Wrong guesses: 
+{1=500, 2=500, 3=500, 4=500, 5=500, 6=500, 7=500, 8=500, 9=1, 10=500}
+
+//comment: the bias term (=1) is not added: w0 = 0; 
